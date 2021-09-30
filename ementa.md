@@ -57,9 +57,13 @@ Dia 1 - Introdução, componentes e props
 Dia 2 - Estilização
     João e Lucas
 
+    Conteúdo:
+    - Estilos inline
+    - Estilos globais
+    - Estilos modulares
+
     Tarefas:
-    - Aplicar um estilo no layout
-    - Estilizar os componentes
+    - Estilizar todos os componentes já implementados
 
     Links:
 
@@ -69,6 +73,7 @@ Dia 3 - Lifecycle, estado e hooks
     - Estado
     - Callbacks
     - Forms
+    - Interação com API externa
     - Tratamento de erros
     
     Tarefas:
@@ -98,7 +103,7 @@ Dia 4 - Navegação
 
     Links:
 
-Dia 5 - Styled Components
+Dia 5 - StyledComponents e bibiotecas visuais
     João e Lucas
 
     - StyledComponents
@@ -113,8 +118,9 @@ Dia 5 - Styled Components
 
 Dia 6 - Build e deploy
     Conteúdo:
-    - Ambientes de produção
-    Build e deploy do projeto
+    - Ambientes de desenvolvimento e produção
+    - Build do projeto
+    - Deploy para servidor remoto
 
     Tarefas:
         - Realizar build do seu projeto
