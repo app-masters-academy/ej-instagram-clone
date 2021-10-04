@@ -2,8 +2,13 @@ Sejam bem vindos ao treinamento "React para humanos" ministrado pela [App Master
 
 Antes de iniciarmos, é preciso realizar o setup do seu ambiente de desenvolvimento, instalando o node e criando um projeto react.
 
+### Windows e linha de comando
+
+Para criar, instalar pacotes e rodar os projetos react, é preciso utilizar o terminal de linha de comando. Se você estiver usando o Windows, terá que decidir entre usar o CMD, PowerShell, WSL ou GitBash, que são as opções de terminal para o Windows. Cada uma terá vantagens e desvatagens, então escolha um deles e vá em frente.
+
 ## Instalar o node
-O primeiro passo para desenvolver com React é instalar Node no seu terminal, seja qual for seu sistema operacional. A versão atual boa para desenvolvimento é a 14, mas qualquer versão acima de
+
+O primeiro passo para desenvolver com React é instalar Node no seu terminal, seja qual for seu sistema operacional. A versão atual boa para desenvolvimento é a 14, se já tiver o node instalado no seu computador, recomendamos atualizar para a 14.
 
 Para saber se o node já está instalado no seu terminal, digite:
 
@@ -17,7 +22,7 @@ Ao final da instalação, abra uma nova janela do terminal (é importante abrir 
 
 `node -v`
 
-Se aparecer a versão do node, sucesso, deu tudo certo!
+Se aparecer a versão do node, sucesso, deu tudo certo! 🎉🎉🎉
 
 Se não conseguiu ver a versão, envie uma mensagem no canal do discord com as informações de erro para buscar ajuda.
 
@@ -35,7 +40,7 @@ npm start
 
 O comando `npx` irá baixar os arquivos necessários e criar a pasta com o seu projeto. Os comandos seguintes serão para entrar na pasta e executar `npm start`, que é o comando para inicializar o React.
 
-Uma janela no seu navegador deverá ser aberto automaticamente no endereço [http://localhost:3000/](http://localhost:3000/) exibindo a logo do React rodando, o que significa sucesso!
+Uma janela no seu navegador deverá ser aberto automaticamente no endereço [http://localhost:3000/](http://localhost:3000/) exibindo a logo do React rodando, o que significa sucesso! 🎉🎉🎉
 
 Se não conseguiu ver o projeto no navegador, envie uma mensagem no canal do discord com as informações de erro para buscar ajuda.
 
