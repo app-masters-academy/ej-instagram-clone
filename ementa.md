@@ -1,17 +1,6 @@
 Antes de iniciar
-    Preparar o ambiente
-    - Instalar node, criar projeto react
-    - Executar projeto
-    Opcional:
-    - Criar um repositório para seu projeto
-
-    JavaScript
-    EcmaScript 6
-
-    Links:
-    - Node install
-    - Node global
-    - React create app
+    Dia 0
+    Falar que saber JS é importante, CSS também
 
 Dia 1 - Introdução, componentes e props
     Revisão:
@@ -30,14 +19,14 @@ Dia 1 - Introdução, componentes e props
     - Class e Hooks
     
     Tarefas:
-    O objetivo é...
+    O objetivo é criar
 
     - Remover componentes e códigos desnecessários ao projeto * 
-    - Criar componente `Header` *
-    - Criar componente `Layout` *
-    - Criar componente `Post` *
-    - Criar componente `PostList` que terá uma coleção de `Post` dentro dele *
-    - Criar componente `Avatar` *
+    - Criar componente `Header`
+    - Criar componente `Layout`
+    - Criar componente `Post`
+    - Criar componente `PostList` que terá uma coleção de `Post` dentro dele
+    - Criar componente `Avatar`
     - Criar componente `Comment`
     - Criar componente `CommentList` que terá uma coleção de `Comment` dentro dele
     - Criar componente `CommentForm`
@@ -61,11 +50,16 @@ Dia 2 - Estilização
     - Estilos inline
     - Estilos globais
     - Estilos modulares
+    - Responsividade
 
     Tarefas:
     - Estilizar todos os componentes já implementados
 
     Links:
+    - O basição do CSS
+    - Flexbox
+    - Grid, responsivo
+    - Frog game
 
 Dia 3 - Lifecycle, estado e hooks
     
@@ -106,15 +100,16 @@ Dia 4 - Navegação
 Dia 5 - StyledComponents e bibiotecas visuais
     João e Lucas
 
+    Conteúdo:
     - StyledComponents
-    - Pacotes Visuais
-    - Material UI
-    - Ant Design
-    - Bootstrap
+    - Pacotes Visuais: Ant Design, Material UI, Bootstrap
 
     Tarefas:
     - Validar adoção de um pacote visual
     - Aplicar StyledComponents nos componentes que achar relevante
+
+    Links:
+    - [Styled Components](https://styled-components.com/)
 
 Dia 6 - Build e deploy
     Conteúdo:
@@ -126,7 +121,6 @@ Dia 6 - Build e deploy
         - Realizar build do seu projeto
         - Publicar sua aplicação no provedor de preferência
         
-
 Após concluir
     Envio do projeto final pela api
     Divulgar em suas redes sociais seu projeto
