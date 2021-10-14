@@ -28,4 +28,12 @@ Sinta-se a vontade para enviar suas dúvidas, e também ajudar os demais estudan
 
 ## Encontros
 
-- [Conteúdo e tarefas do dia 1]()  
+Os encontros acontecem via Google Meet e são sempre gravados para facilitar o acesso dos que não estiverem presente online. Acesse
+as gravações na [playlist do treinamento](https://youtube.com/playlist?list=PLcVtH740Zo5LTESeoJFo6UJpJRJEuYMv0) no YouTube.
+
+- Dia 1 - [Video](https://www.youtube.com/watch?v=G6UUwGQl2Us&list=PLcVtH740Zo5LTESeoJFo6UJpJRJEuYMv0&index=1) - [Conteúdo e tarefas](dia-1-componente-props.md)
+- Dia 2 - À realizar dia 15 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
+- Dia 3 - À realizar dia 18 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
+- Dia 4 - À realizar dia 21 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
+- Dia 5 - À realizar dia 25 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
+- Dia 6 - À realizar dia 28 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
