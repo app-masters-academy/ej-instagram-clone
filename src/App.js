@@ -1,6 +1,7 @@
+import "./App.css";
 import Header from "./components/Header";
-import CommentForm from "./components/CommentForm";
 import Post from "./components/Post";
+import CommentForm from "./components/CommentForm";
 import Colors from "./styles/colors";
 
 const posts = [
@@ -8,6 +9,7 @@ const posts = [
     userName: "Tiago Gouvêa",
     date: "13 Oct 2021 - 20:21",
     message: "Maneiro essa coisa!",
+    image: "/assets/paisagem.jpg",
     comments: [
       {
         userName: "Baraky",
@@ -36,7 +38,7 @@ posts.push({
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <div
         style={{
           width: "100vw",
@@ -54,6 +56,8 @@ function App() {
             backgroundColor: "white",
           }}
           buttonColor={Colors.red}
+          placeholder="Faça uma publicação"
+          buttonText="Publicar"
         />
         {posts.map((post) => (
           <Post data={post} />

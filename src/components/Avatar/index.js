@@ -1,5 +1,5 @@
-import { AiOutlineUser } from "react-icons/ai";
 import "./styles.css";
+import { AiOutlineUser } from "react-icons/ai";
 
 function Avatar(props) {
   return (

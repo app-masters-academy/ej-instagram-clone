@@ -11,18 +11,26 @@ function Comment(props) {
 
 const CommentList = (props) => {
   return (
-    <div className="comments-container">
+    <div style={styles.commentList}>
       {props.comments ? (
         props.comments.map((comment) => (
           <Comment message={comment.message} userName={comment.userName} />
         ))
       ) : (
-        <span style={{ opacity: 0.4, fontSize: "14px" }}>
-          Seja o primeiro a comentar
-        </span>
+        <span style={styles.noComment}>Seja o primeiro a comentar</span>
       )}
     </div>
   );
+};
+
+const styles = {
+  noComment: {
+    opacity: 0.4,
+    fontSize: "14px",
+  },
+  commentList: {
+    padding: "10px",
+  },
 };
 
 export { Comment, CommentList };

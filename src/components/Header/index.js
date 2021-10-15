@@ -4,9 +4,9 @@ function Header() {
   return (
     <div className="header-container">
       <img
-        width="115px"
         src="/assets/instagram-logo.png"
         alt="Logo do Instagram"
+        width="115px"
       />
     </div>
   );
