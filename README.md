@@ -32,7 +32,7 @@ Os encontros acontecem via Google Meet e são sempre gravados para facilitar o a
 as gravações na [playlist do treinamento](https://youtube.com/playlist?list=PLcVtH740Zo5LTESeoJFo6UJpJRJEuYMv0) no YouTube.
 
 - Dia 1 - [Video](https://www.youtube.com/watch?v=G6UUwGQl2Us&list=PLcVtH740Zo5LTESeoJFo6UJpJRJEuYMv0&index=1) - [Conteúdo e tarefas](dia-1-componente-props.md)
-- Dia 2 - À realizar dia 15 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
+- Dia 2 - [Video](https://youtu.be/mTmSoBTOGsc) - [Conteúdo e tarefas](dia-2-estilizacao.md)
 - Dia 3 - À realizar dia 18 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
 - Dia 4 - À realizar dia 21 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
 - Dia 5 - À realizar dia 25 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
