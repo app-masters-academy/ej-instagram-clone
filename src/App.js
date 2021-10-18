@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Post from "./components/Post";
@@ -38,9 +39,17 @@ posts.push({
 });
 
 function App() {
-  const showLogin = false;
+  console.log("Render do App");
+  const accessToken = localStorage.getItem("accessToken");
+  const [showLogin, setShowLogin] = React.useState(!accessToken);
   if (showLogin) {
-    return <LoginView />;
+    return (
+      <LoginView
+        onLogin={(user) => {
+          user ? setShowLogin(false) : setShowLogin(true);
+        }}
+      />
+    );
   }
   return (
     <div>
