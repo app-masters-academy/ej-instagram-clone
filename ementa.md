@@ -2,25 +2,9 @@
 
 ## [Dia 1 - Introdução, componentes e props](dia-1-componente-props.md)
 
-## Dia 2 - Estilização
-    João e Lucas
+## [Dia 2 - Estilização](dia-2-estilizacao.md)
 
-    Conteúdo:
-    - Estilos inline
-    - Estilos globais
-    - Estilos modulares
-    - Responsividade
-
-    Tarefas:
-    - Estilizar todos os componentes já implementados
-
-    Links:
-    - O basição do CSS
-    - Flexbox
-    - Grid, responsivo
-    - Frog game
-
-## Dia 3 - Lifecycle, estado e hooks
+## [Dia 3 - Lifecycle, estado e hooks]
     
     - Hooks
     - Estado

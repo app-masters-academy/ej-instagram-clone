@@ -13,7 +13,7 @@
 
 
 ## Tarefas:
-O objetivo é adicionar estilos nos componentes criados na primeira aula
+O objetivo é adicionar funcionalidades ao projeto, criando usuários pela API, obter e criar posts e likes. 
 
 - Criar rotas novas para a aplicação;
 - Logar o usuário;

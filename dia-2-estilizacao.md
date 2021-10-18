@@ -15,18 +15,18 @@
 - Tema
 
 ## Tarefas:
-O objetivo é adicionar estilos nos componentes criados na primeira aula
+O objetivo é adicionar estilos nos componentes criados no primeiro encontro, fazendo nossa interface ficar mais bonita e moderna.
 
 - Alterar pastas para organizar melhor os componentes
 - Adicionar pacote [React-Icons](https://react-icons.github.io/react-icons/)
 - Estilizar componente `Header`
 - Estilizar componente `Post`
-- Estilizar componente `PostList` que terá uma coleção de `Post` dentro dele
+- Estilizar componente `PostList`
 - Estilizar componente `Avatar`
 - Estilizar componente `Comment`
-- Estilizar componente `CommentList` que terá uma coleção de `Comment` dentro dele
+- Estilizar componente `CommentList`
 - Estilizar componente `CommentForm`
-- Estilizar componente `LoginForm`  👈
+- Estilizar componente `LoginForm`
 
 ## Links úteis:
 - [Docs: Estilização e CSS](https://pt-br.reactjs.org/docs/faq-styling.html)

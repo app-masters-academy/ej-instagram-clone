@@ -16,7 +16,7 @@
 - Class e Hooks
 
 ## Tarefas:
-O objetivo é criar
+O objetivo é criar os componentes básicos do projeto, que serão melhorados e usados nos próximos dias de treinamento.
 
 - Remover componentes e códigos desnecessários ao projeto * 
 - Criar componente `Header`
@@ -37,3 +37,4 @@ O objetivo é criar
 - [Docs: Hello World](https://reactjs.org/docs/hello-world.html)
 - [Docs: Hello World](https://reactjs.org/docs/hello-world.html)
 - [Composition vs Inheritance - Props vs Children](https://reactjs.org/docs/composition-vs-inheritance.html)
+- [React Developers Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)

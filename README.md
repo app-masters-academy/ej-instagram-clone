@@ -26,12 +26,16 @@ Estamos nos comunicando via [discord](https://discord.gg/dNJrW99B), e os encontr
 
 Sinta-se a vontade para enviar suas dúvidas, e também ajudar os demais estudantes.
 
+## Backend e API
+
+Nosso projeto acessará uma API feita exclusivamente para o treinamento. O endereço base (e documentação) é [https://instagram--clone--api.herokuapp.com/](https://instagram--clone--api.herokuapp.com/).
+
 ## Encontros
 
 Os encontros acontecem via Google Meet e são sempre gravados para facilitar o acesso dos que não estiverem presente online. Acesse
 as gravações na [playlist do treinamento](https://youtube.com/playlist?list=PLcVtH740Zo5LTESeoJFo6UJpJRJEuYMv0) no YouTube.
 
-- Dia 1 - [Video](https://www.youtube.com/watch?v=G6UUwGQl2Us&list=PLcVtH740Zo5LTESeoJFo6UJpJRJEuYMv0&index=1) - [Conteúdo e tarefas](dia-1-componente-props.md)
+- Dia 1 - [Video](hhttps://www.youtube.com/watch?v=G6UUwGQl2Us) - [Conteúdo e tarefas](dia-1-componente-props.md)
 - Dia 2 - [Video](https://youtu.be/mTmSoBTOGsc) - [Conteúdo e tarefas](dia-2-estilizacao.md)
 - Dia 3 - [Conteúdo e tarefas](dia-3-autenticacao.md)
 - Dia 4 - À realizar dia 21 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
