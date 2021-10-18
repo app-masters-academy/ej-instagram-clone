@@ -14,6 +14,7 @@
 - Forms
 - Callbacks via props
 - Tratamento de erros
+- LocalStorage
 
 ## Tarefas:
 O objetivo é adicionar funcionalidades ao projeto, criando usuários pela API, obter e criar posts e likes. 
