@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Post from "./components/Post";
 import CommentForm from "./components/CommentForm";
+import { LoginView } from "./components/LoginView";
 import Colors from "./styles/colors";
 
 const posts = [
@@ -37,6 +38,10 @@ posts.push({
 });
 
 function App() {
+  const showLogin = false;
+  if (showLogin) {
+    return <LoginView />;
+  }
   return (
     <div>
       <div

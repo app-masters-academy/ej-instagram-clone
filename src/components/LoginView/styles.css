@@ -1,0 +1,43 @@
+.form-background {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+}
+
+input {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 200px;
+  border-color: var(--darkBorder);
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.form-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #454545;
+}
+
+.form-submit {
+  margin-top: 24px;
+  background-color: var(--red);
+  color: white;
+  border: none;
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.form-submit:hover {
+  opacity: 1;
+}
