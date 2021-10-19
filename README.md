@@ -2,7 +2,6 @@
 
 Sejam bem vindos ao treinamento "React para humanos" ministrado pela [App Masters](https://appmasters.io).
 
-
 ## Encontros
 
 Os encontros acontecem via Google Meet e são sempre gravados para facilitar o acesso dos que não estiverem presente online. Acesse
