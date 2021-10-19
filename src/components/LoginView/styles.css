@@ -37,6 +37,9 @@ input {
   border-radius: 5px;
   opacity: 0.8;
 }
+.disabled {
+  background-color: #676767;
+}
 
 .form-submit:hover {
   opacity: 1;
