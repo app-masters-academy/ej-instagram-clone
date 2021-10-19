@@ -25,9 +25,9 @@ O objetivo é adicionar funcionalidades ao projeto, criando usuários pela API, 
 - Lidar com erros de autenticação, mostrando para o usuário os erros
 - Salvar dados do usuário autenticado em LocalStorage
 - Obter todos os posts e renderizar na interface
-- Criar rotas novas para a aplicação
 - Implementar formulário de envio de POST, e obter posts novamente após sucesso
 - Lidar com erros na criação do POST, mostrando para o usuário os erros
+- Fazer upload da foto ao criar o post
 - Implementar botão de like, com envio de POST, e apresentar o post com a quantidade de likes
 
 ## API do projeto
