@@ -39,4 +39,3 @@ O objetivo é adicionar funcionalidades ao projeto, criando usuários pela API, 
 - [Docs: Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
 - [Docs: Hooks de forma resumida](https://pt-br.reactjs.org/docs/hooks-overview.html)
 - [Docs: Usando State Hook](https://pt-br.reactjs.org/docs/hooks-state.html)
-- [Docs: Usando Effect Hook](https://pt-br.reactjs.org/docs/hooks-effect.html)

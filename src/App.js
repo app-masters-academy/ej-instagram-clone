@@ -1,84 +1,58 @@
 import React from "react";
-import "./App.css";
-import Header from "./components/Header";
-import Post from "./components/Post";
-import CommentForm from "./components/CommentForm";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import { LoginView } from "./components/LoginView";
-import Colors from "./styles/colors";
+import { Timeline as TimelineView } from "./components/Timeline";
+import { PostView } from "./components/PostView";
 
-const posts = [
-  {
-    userName: "Tiago Gouvêa",
-    date: "13 Oct 2021 - 20:21",
-    message: "Maneiro essa coisa!",
-    image: "/assets/paisagem.jpg",
-    comments: [
-      {
-        userName: "Baraky",
-        date: "13 Oct 2021 - 20:33",
-        message: "Concordo",
-      },
-      {
-        userName: "Helena Lannes",
-        date: "13 Oct 2021 - 20:35",
-        message: "Coloca TypeScript",
-      },
-    ],
-  },
-  {
-    userName: "Baraky",
-    date: "13 Oct 2021 - 20:48",
-    message: "Eu gosto de dar spoiler",
-  },
-];
+import "./App.css";
 
-posts.push({
-  userName: "Guilherme Rodrigues",
-  date: "13 oct 2021 - 20:30",
-  message: "Dá pra mudar a const??",
-});
+const PrivatesRoutes = () => {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/post/:id" component={PostView} />
+        <Route path="/" exact={true} component={TimelineView} />
+        <Route path="*">
+          <div>
+            <h1>404 - Não tem nada por aqui</h1>
+          </div>
+        </Route>
+      </Switch>
+    </Router>
+  );
+};
+
+const PublicRoutes = (props) => {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/" exact>
+          <LoginView
+            onLogin={(user) => {
+              user ? props.onLogin(true) : props.onLogin(false);
+            }}
+          />
+        </Route>
+        <Route path="*">
+          <div>
+            <h1>404 - Não tem nada por aqui</h1>
+          </div>
+        </Route>
+      </Switch>
+    </Router>
+  );
+};
 
 function App() {
-  console.log("Render do App");
   const accessToken = localStorage.getItem("accessToken");
-  const [showLogin, setShowLogin] = React.useState(!accessToken);
-  if (showLogin) {
-    return (
-      <LoginView
-        onLogin={(user) => {
-          user ? setShowLogin(false) : setShowLogin(true);
-        }}
-      />
-    );
+  const [isAuthenticated, setIsAuthenticated] = React.useState(!!accessToken);
+
+  if (isAuthenticated) {
+    return <PrivatesRoutes />;
+  } else {
+    return <PublicRoutes onLogin={setIsAuthenticated} />;
   }
-  return (
-    <div>
-      <div
-        style={{
-          width: "100vw",
-          backgroundColor: "white",
-          borderBottom: `1px solid ${Colors.darkBorder}`,
-          marginBottom: "40px",
-        }}
-      >
-        <Header />
-      </div>
-      <div style={{ maxWidth: "614px", margin: "auto" }}>
-        <CommentForm
-          style={{
-            border: `1px solid ${Colors.darkBorder}`,
-            backgroundColor: "white",
-          }}
-          buttonColor={Colors.red}
-          placeholder="Faça uma publicação"
-          buttonText="Publicar"
-        />
-        {posts.map((post) => (
-          <Post data={post} />
-        ))}
-      </div>
-    </div>
-  );
 }
 
 export default App;

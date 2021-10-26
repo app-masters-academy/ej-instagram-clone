@@ -7,13 +7,21 @@ export default function CommentForm(props) {
   const [photoUrl, setPhotoUrl] = React.useState("");
 
   const submitPost = async () => {
-    const data = {
-      photoUrl: photoUrl,
-      description: "Apenas um post",
-    };
-    console.log("Vou postar!");
-    const response = await api.post("/post", data);
-    console.log(response);
+    try {
+      // Objeto que vai ser enviado pra API (post)
+      const data = {
+        photoUrl: photoUrl,
+        description: "Apenas um post",
+      };
+      // Enviando post para a API
+      const response = await api.post("/post", data);
+
+      props.onPublish(response.data);
+      setPhotoUrl("");
+    } catch (error) {
+      console.log("DEU ERRADO");
+      console.error(error);
+    }
   };
 
   return (

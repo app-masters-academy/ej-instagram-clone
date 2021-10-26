@@ -3,6 +3,7 @@
   border: 1px solid var(--darkBorder);
   background-color: white;
   padding-top: 10px;
+  max-width: 600px;
 }
 
 .post-message {

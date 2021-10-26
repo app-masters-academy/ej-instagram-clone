@@ -8,25 +8,9 @@
 
 ## [Dia 3 - Estado, hooks e forms](dia-3-estado-hooks-forms.md)
 
-## Dia 4 - Navegação e estruturação do projeto
+## [Dia 4 - Navegação e estruturação do projeto](dia-4-navegacao.md)
 
-## Conteúdo
-- Routas de navegação
-- Estrutura do projeto
-- Context
-
-Tarefas:
-- Exibir apenas último comentário em cada foto na listagem
-- Criar rota de detalhe da foto (ver um único post)
-- Excluir posts (apenas o usuário dono do post pode excluir)
-- Postar comentario em foto pela rota de detalhe
-- Apresentar todos os comentários
-- Criar rota de perfil do usuário
-- Excluir comentários (apenas o usuário dono do post, ou quem comentou podem excluir)
-
-Links:
-
-## Dia 5 - StyledComponents e bibiotecas visuais
+## Dia 5 - StyledComponents e bibliotecas visuais
 Conteúdo:
 - StyledComponents
 - Pacotes Visuais: Ant Design, Material UI, Bootstrap
