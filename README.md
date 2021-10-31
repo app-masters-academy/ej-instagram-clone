@@ -11,7 +11,7 @@ as gravações na [playlist do treinamento](https://youtube.com/playlist?list=PL
 - Dia 2 - [Video](https://youtu.be/mTmSoBTOGsc) - [Conteúdo e tarefas](dia-2-estilizacao.md)
 - Dia 3 - [Video](https://www.youtube.com/watch?v=GsV2sZSSX-s) - [Conteúdo e tarefas](dia-3-estado-hooks-forms.md)
 - Dia 4 - [Video](https://youtu.be/aqHZs8EHx9M) - [Conteúdo e tarefas](dia-4-navegacao.md)
-- Dia 5 - À realizar dia 28 de Outubro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
+- Dia 5 - [Video](https://youtu.be/GNCj6FXm3nU) - Conteúdo e tarefas
 - Dia 6 - À realizar dia 03 de Novembro de 2021 as 18:30 via [Google Meet](https://meet.google.com/pwp-vcjq-dkq)
 
 ## Rodando seu projeto
